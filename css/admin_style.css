@@ -349,26 +349,24 @@ sidebar ul li ::before{
     background-color: var(--pink-color);
     border:2px solid var(--main-color);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-position:absolute;
-left:0;
-width: 30%;
-z-index: -3;
+/*----form container----*/
+.form-container{
+    background-image: url('../images/p.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    padding:5% 0;
+}
+.form-img{
+    position:absolute;
+    left:0;
+    width:30%;
+    z-index: -3;
 }
 .form-container form{
     background-color: :var(var(--white-alfa-25));
@@ -440,5 +438,13 @@ z-index: -3;
     flex: 1 1 25rem;
 }
 .form-container .btn{
-    width:100%
+    width:100%;
+    font-size:1.3rem;
+}
+.form-container .btn:hover{
+ background-color: #000;
+ color:#fff;
+}
+.form-container .image{
+    height:30rem;
 }
